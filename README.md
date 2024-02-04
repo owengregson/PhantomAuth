@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/PhantomAuth-NoBorders.png" width="100" height="100">
+  <img src="./resources/PhantomAuth-NoBorders.png" width="112" height="138">
 </p>
 <h1 align="center">PhantomAuth</h1>
 <p>A PHP Authentication System with modular resource storage, rate-limiting, ip-limiting, keys, and configuration.</p>
