@@ -27,22 +27,22 @@ Open up the `config.json` file and configure the settings to your liking. Here i
 
 ```json
 {
-    'productName': "example",
-    'iplimit': {
-        'enabled': true,
-        'ipAddressesPerKey': 2
+    "productName": "example",
+    "iplimit": {
+        "enabled": true,
+        "ipAddressesPerKey": 2
     },
-    'ratelimit': {
-        'enabled': true,
-        'maxRequestsPerPeriod': 5,
-        'timePeriodSeconds': 15
+    "ratelimit": {
+        "enabled": true,
+        "maxRequestsPerPeriod": 5,
+        "timePeriodSeconds": 15
     },
-    'logging': {
-        'enabled': true,
-        'webhook_url': "https://discord.com/api/webhooks/...",
-        'embed_username': "PhantomAuth",
-        'embed_color_hex': "#f44444",
-        'embed_avatar_url': "https://raw.githubusercontent.com/owengregson/PhantomAuth/main/resources/PhantomAuth.png"
+    "logging": {
+        "enabled": true,
+        "webhook_url": "https://discord.com/api/webhooks/...",
+        "embed_username": "PhantomAuth",
+        "embed_color_hex": "#f44444",
+        "embed_avatar_url": "https://raw.githubusercontent.com/owengregson/PhantomAuth/main/resources/PhantomAuth.png"
     }
 }
 ```
