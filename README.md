@@ -84,7 +84,7 @@ Each request should be a GET request over HTTP or HTTPS. The URL parameters are 
 * request: (optional) The locked resource to access.
 
 An example authentication request using these parameters would be:
-`https://yoursite.com/auth/?key=example-key&type=example&product=example&request=example-resource`
+```https://yoursite.com/auth/?key=example-key&type=example&product=example&request=example-resource```
 
 ## 2. Receiving Responses
 Reponses are in the format of a JSON encoded object. The JSON object contains the following properties:
