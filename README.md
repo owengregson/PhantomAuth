@@ -1,4 +1,4 @@
-<img src="./resources/PhantomAuth.png" width="100" height="100"><h1 id="phantomauth">PhantomAuth</h1>
+<img src="./resources/PhantomAuth.png" width="100" height="100" style="white-space: nowrap"><h1 id="phantomauth" style="white-space: nowrap">PhantomAuth</h1>
 <p>A PHP Authentication System with modular resource storage, rate-limiting, ip-limiting, keys, and configuration.</p>
 <p>I&#39;ve been using this authentication system for a long time in my projects but it had some major flaws and security issues that I needed to fix. After fixing everything, I&#39;ve decided to release the auth here for others to use.
 PhantomAuth integrates with my other project, CMAnalytics, for powerful discord logging (if you enable that feature.)</p>
