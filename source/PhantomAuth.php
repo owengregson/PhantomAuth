@@ -327,6 +327,8 @@ if ($authResult->{'status'} == "valid") {
     } else {
         $authResult->{'response'} = "Request type does not match any resource.";
     }
+} else {
+    $authResult->{'response'} = "failure";
 }
 
 // Log to Discord Webhook
